@@ -18,9 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('about');
 });
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('contact');
+});
+
+Route::get('/', function () {
+    return view('');
 });
